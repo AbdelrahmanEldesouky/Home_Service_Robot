@@ -61,7 +61,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 4. On the command line and execute  
 ```
-cd RoboND-Term1-P5-Home-Service-Robot/catkin_ws/src  
+cd Home_Service_Robot/catkin_ws/src  
 git clone https://github.com/ros-perception/slam_gmapping.git  
 git clone https://github.com/turtlebot/turtlebot.git  
 git clone https://github.com/turtlebot/turtlebot_interactions.git  
@@ -117,12 +117,13 @@ Directory Structure
 * Clone this repository
 
 ```
+git clone https://github.com/AbdelrahmanEldesouky/Home_Service_Robot.git
 ```
 
 * Navigate to the `src` folder and clone the necessary repositories  
 
 ```
-cd RoboND-Term1-P5-Home-Service-Robot/catkin_ws/src  
+cd Home_Service_Robot/catkin_ws/src  
 git clone https://github.com/ros-perception/slam_gmapping.git  
 git clone https://github.com/turtlebot/turtlebot.git  
 git clone https://github.com/turtlebot/turtlebot_interactions.git  
@@ -130,7 +131,7 @@ git clone https://github.com/turtlebot/turtlebot_simulator.git
 ```
 * Open the repository, make and source  
 ```
-cd /home/workspace/catkin_ws/
+cd Home_Service_Robot/catkin_ws/
 catkin_make
 source devel/setup.bash
 ```
