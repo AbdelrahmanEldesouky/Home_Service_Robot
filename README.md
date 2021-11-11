@@ -6,7 +6,7 @@ Project 5 of Udacity Robotics Software Engineer Nanodegree
 In this project I use every thing I had learn in this Nanodegree. 
 
 ### Mapping  
-I was created a test_slam.sh script file and launch it to manually test SLAM. A functional map of the environment will be created which would be used for localization and navigation tasks.
+I was created a `test_slam.sh` script file and launch it to manually test SLAM. A functional map of the environment will be created which would be used for localization and navigation tasks.
 ### Localization and Navigation  
 I was created a `test_navigation.sh` script file to launch it for manual navigation test. my robot will be able to navigate in the environment after a 2D Nav Goal command is issued, also I was created a `pick_objects.sh` file that will send multiple goals for the robot to reach. 
 
@@ -25,7 +25,7 @@ I was created a `test_navigation.sh` script file to launch it for manual navigat
 > 3. Then after another 5 seconds it will appear at the drop off zone.
 
 ### Home Service Functions  
-
+I was created a `home_service.sh` file that will run Home_Service_Robot project
 1. Initially show the marker at the pickup zone. 
 2. Hide the marker once your robot reaches the pickup zone. 
 3. Wait 5 seconds to simulate a pickup. 
